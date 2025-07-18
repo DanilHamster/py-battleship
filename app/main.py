@@ -41,7 +41,6 @@ class Battleship:
     def __init__(self,
                  ships: list[tuple[tuple[int, int], tuple[int, int]]]
                  ) -> None:
-
         self.field = []
         for start, end in ships:
             self.field.append(Ship(start, end))
